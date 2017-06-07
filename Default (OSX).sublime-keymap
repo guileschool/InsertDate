@@ -1,7 +1,8 @@
 [
 // Insert datetime using default format text
   { "keys": ["super+f5", "super+f5"],
-    "command": "insert_date" },
+    "command": "insert_date",
+    "args":{"format":"%Y-%m-%d %H:%M"}},
 
 // Insert datetime using the specified format
   // Locale date
